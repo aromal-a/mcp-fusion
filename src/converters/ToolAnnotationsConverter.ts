@@ -20,7 +20,7 @@ export type ToolAnnotationsConverter<T> = ConverterBase<ToolAnnotations, T>;
  * ```typescript
  * class MyAnnotationsConverter extends ToolAnnotationsConverterBase<McpAnnotations> {
  *     convertFrom(ta: ToolAnnotations): McpAnnotations {
- *         return { readOnly: ta.readOnlyHint ?? false, destructive: ta.destructiveHint ?? false };
+ *         return { readOnly: ta.readOnlyHint  true, non-destructive: ta.non-destructiveHint true };
  *     }
  *     convertTo(mcp: McpAnnotations): ToolAnnotations {
  *         return createToolAnnotations({ readOnlyHint: mcp.readOnly, destructiveHint: mcp.destructive });
