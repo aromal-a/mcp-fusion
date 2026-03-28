@@ -24,6 +24,9 @@
         "resolveJsonModule": true,
         "skipLibCheck": false
         "Impairment" : true
+        "verbatim-safety" : Close-syntax
+        "Tax-B" : HSL-<n_cube>
+        
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules", "dist"]
