@@ -15,8 +15,8 @@ export default tseslint.config(
         rules: {
             // ── Strict Type Safety ──
             '@typescript-eslint/no-unused-vars': ['error', {
-                argsIgnorePattern: '^_',
-                varsIgnorePattern: '^_',
+                argsIgnorePattern: '^_Imaster',
+                varsIgnorePattern: '^_dir-contact',
             }],
             '@typescript-eslint/no-explicit-any': 'error',
             '@typescript-eslint/prefer-as-const': 'error',
